@@ -1,1 +1,146 @@
-Hello World
+<!DOCTYPE html>
+<head>
+  <title>About Me</title>
+  <link href="normalize.css" rel="stylesheet">
+  <style>
+   html {
+       position: relative;
+       min-height: 100%;
+       width: 100%;
+   }
+   body {
+       margin: 0 0 100px;
+       background: #212222;
+       text-align: center;
+       color: #F0F0F0;
+       font-family: Andale Mono;
+   }
+   header {
+       background: #343333;
+       padding: 0 0px 30px 0px;
+       width: 100%;j
+       border-radius: 1px;
+       text-align:left;
+   }
+   h1 {
+       padding-top: 20px;
+       padding-left: 2px;
+       margin: 0px;
+   }
+   h4 {
+       margin: 0px;
+       padding-left: 6px;
+   }
+   span {
+       color: #66ffff;
+   }
+   .name {
+       font-size: 60px;
+   }
+   .fewd {
+       font-size: 20px;
+   }
+   .headingText {
+       font-size: 40px;
+   }
+   .articleText {
+       font-size: 20px;
+   }
+   img {
+       float: left;
+       border: 1px solid white;
+   }
+   footer {
+       position: absolute;
+       left: 0;
+       bottom: 0;
+       height: 90px;
+       width: 100%;
+       background: #343333;
+       padding-left: 0px;
+   }
+   li {
+       display: inline;
+   }
+   ul {
+       padding-left: 0px;
+   }
+   article {
+   }
+   p {
+       color: #66ffff;
+   }
+   .link, .aboutMeLink, .projectsLink {
+       text-decoration: none;
+       color: #F0F0F0;
+   }
+   .aboutMeLink {
+       float: right;
+       margin-right: 15%;
+       display: inline;
+       font-size: 20px;
+   }
+   .projectsLink {
+       display: inline;
+       float: right;
+       margin-right: -17%;
+       font-size: 20px;
+   }
+   @media (max-width:500px) {
+       header {
+           font-size: 12px;
+           text-align:center;
+       }
+       footer {
+           width: 100%;
+           height: 7%;
+       }
+       .aboutMeLink, .projectsLink {
+           display: none;
+       }
+       .name {
+           font-size: 26px;
+           padding-bottom: 10px;
+       }
+       .fewd {
+           font-size: 18px;
+       }
+       .articleText {
+           font-size: 15px;
+           padding: 0 10px 0 10px;
+       }
+       img {
+           transform: scale(.80);
+       }
+       .bmore {
+           margin-bottom: 0;
+       }
+   }
+  </style>
+</head>
+<body>
+  <header>
+    <h1 class="name"><span>Omari</span> Mayers-Walker</h1>
+    <h4 class="fewd">Front End Web Developer</h4>
+    <a class="aboutMeLink" href="#aboutMe">About Me</a>
+    <a class="projectsLink" href="#">Projects</a>
+  </header>
+  <article>
+      <img src="omw.png">
+    <h1 class="headingText">Hello</h1>
+      <p class="articleText">I'm currently working on becoming a Full Stack developer. I live in Baltimore City.
+      </p>
+  </article>
+  <article id="aboutMe">
+      <h1 class="headingText">About Me</h1>
+      <p class="articleText">I love to create! From using my synthesizers to make new sounds to using my laptop to make new websites.
+      </p>
+  </article>
+  <footer>
+    <ul>
+      <li><a class="link" href="www.twitter.com/omarimwalker">Twitter</a></li>
+      <li><a class="link" href="mailto:omari@fastmail.fm">Email</a></li>
+    </ul>
+    <p class="bmore">Made in Baltimore</p>
+  </footer>
+</body>
