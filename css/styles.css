@@ -1,0 +1,227 @@
+* {
+    box-sizing: border-box;
+    color: white;
+    font-family: monospace;
+}
+
+main {
+    position: fixed;
+    background-color: darkgrey;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    background-color: black;
+    display: block;
+    position: relative;
+    text-align: center;
+    height: 10%;
+    top: 0;
+}
+
+#board {
+    position: relative;
+    display: block;
+    width: 90%;
+    height: 70%;
+    margin: auto;
+    margin-top: 4em;
+    padding: 0;
+}
+
+.row {
+    display: block;
+    width: 100%;
+    height: 25%;
+}
+
+.card {
+    display: inline-block;
+    width: 10%;
+    text-align: center;
+    text-indent: -9999px;
+    margin: 0 3px;
+    min-width: 100px;
+    height: 90%;
+    border: solid white 1px;
+}
+
+.back {
+    background-image: url(../img/binary2.jpg);
+}
+
+
+/* Card Fronts */
+
+.android {
+    background-image: url(../img/androidR.png);
+}
+
+.angular {
+    background-image: url(../img/angularR.png);
+}
+
+.antergos {
+    background-image: url(../img/antergosR.png);
+}
+
+.arch {
+    background-image: url(../img/archR.png);
+}
+
+.backbone {
+    background-image: url(../img/backboneR.png);
+}
+
+.bitcoin {
+    background-image: url(../img/bitcoinR.png);
+}
+
+.bower {
+    background-image: url(../img/BowerR.png);
+}
+
+.C {
+    background-image: url(../img/CR.png);
+}
+
+.Cplusplus {
+    background-image: url(../img/C++R.png);
+}
+
+.chakra {
+    background-image: url(../img/chakraR.png);
+}
+
+.clementine {
+    background-image: url(../img/ClementineR.png);
+}
+
+.coffee {
+    background-image: url(../img/CoffeeR.png);
+}
+
+.copyleft {
+    background-image: url(../img/copyleftR.png);
+}
+
+.csharp {
+    background-image: url(../img/CsharpR.png);
+}
+
+.css3 {
+    background-image: url(../img/css3R.png);
+}
+
+.dart {
+    background-image: url(../img/dartR.png);
+}
+
+.debian {
+    background-image: url(../img/debianR.png);
+}
+
+.diaspora {
+    background-image: url(../img/diasporaR.png);
+}
+
+.dj {
+    background-image: url(../img/djR.png);
+}
+
+.django {
+    background-image: url(../img/djangoR.png);
+}
+
+.docker {
+    background-image: url(../img/DockerR.png);
+}
+
+.dogecoin {
+    background-image: url(../img/DogecoinR.png);
+}
+
+.drupal {
+    background-image: url(../img/drupalR.png);
+}
+
+.elementary {
+    background-image: url(../img/elementaryR.png);
+}
+
+.emacs {
+    background-image: url(../img/EmacsR.png);
+}
+
+.fluxbox {
+    background-image: url(../img/FluxboxR.png);
+}
+
+.freebsd {
+    background-image: url(../img/freebsdR.png);
+}
+
+.gentoo {
+    background-image: url(../img/gentooR.png);
+}
+
+.gimp {
+    background-image: url(../img/gimpR.png);
+}
+
+.git {
+    background-image: url(../img/gitR.png);
+}
+
+.gnome {
+    background-image: url(../img/gnomeR.png);
+}
+
+.gnu {
+    background-image: url(../img/gnuR.png);
+}
+
+.golang {
+    background-image: url(../img/golangR.png);
+}
+
+.grunt {
+    background-image: url(../img/GruntR.png);
+}
+
+.html5 {
+    background-image: url(../img/html5R.png);
+}
+
+.js {
+    background-image: url(../img/jsR.png);
+}
+
+.highlight {
+    border-color: cyan;
+    border-width: 1px;
+}
+
+footer {
+    display: block;
+    position: fixed;
+    margin: auto;
+    width: 100%;
+    height: 10%;
+    bottom: 0;
+}
+
+#centerButtons {
+    margin: auto;
+    position: relative;
+    width: 25%;
+    left: 115px;
+}
+
+.button {
+    width: 4em;
+    height: 2em;
+    border: solid white 1px;
+}
