@@ -10,6 +10,14 @@ Select two cards and try to make a match. If you don't make a match the two sele
  - If you click a single card more than once per round the game can break
  - I haven't coded all the user stories
 
+# Technologies
+
+ - HTML
+ - CSS
+ - JS
+ - JQuery
+
+
 # Process
 
  - Weekend: I brainstormed about how I wanted the game to look
