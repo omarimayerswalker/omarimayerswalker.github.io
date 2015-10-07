@@ -3,6 +3,7 @@
     color: white;
     font-family: 'Share Tech Mono';
     background-position: center;
+    background-color: #141414;
 }
 
 img {
@@ -25,6 +26,10 @@ header {
     text-align: center;
     height: 10%;
     top: 0;
+}
+
+h1 {
+    margin: 1em 0 0 0;
 }
 
 #board {
