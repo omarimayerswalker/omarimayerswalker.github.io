@@ -63,7 +63,8 @@ var playerMoves = {
                 $("div").removeClass(playerMoves.choosenTwo[1]);
                 playerMoves.cardCounter = 0;
                 playerMoves.choosenTwo = [];
-            }, 3000);
+            }, 4000);
+            clearTimeout(delay);
         }
     }
 };
