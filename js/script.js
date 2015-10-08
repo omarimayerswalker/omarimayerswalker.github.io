@@ -61,7 +61,9 @@ var playerMoves = {
             var delay = setTimeout(function() {
                 $("div").removeClass(playerMoves.choosenTwo[0]);
                 $("div").removeClass(playerMoves.choosenTwo[1]);
-            }, 2000);
+                playerMoves.cardCounter = 0;
+                playerMoves.choosenTwo = [];
+            }, 3000);
         }
     }
 };
